@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Registration</title>
+<meta charset="UTF-8">
+<style>
+	h3{
+		text-transform: uppercase;
+		text-align: center;
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+	   }
+	   li{
+	   	float: left;
+	   }
+	li a{
+		text-decoration: none;
+		display: block;
+		text-align: center;
+		padding: 14px 18px ;
+		color: white;
+	  }
+	  .new{
+	  	float: right;
+	  	color: indigo;
+	  	font-weight: bold;
+	  	font-size: 20px;
+	  	line-height: 80px;
+	  }
+	  .mod{
+	  	padding: 15px;
+	  	text-align: center;
+	  	margin:25px 0px;
+	  	font-weight: bold;
+
+	  }
+
+</style>
+</head>
+<body>
+	<h3>Registration Page:</h3>
+	<a href="https://www.iiit.ac.in/" target="_blank">
+	<img src="https://www.iiit.ac.in/img/iiit-new.png" width="200" height="100">
+	<a href="https://serc.iiit.ac.in/rdip" class="new" target="_blank">RDIP</a>
+<ul>
+	<li><a href="homepage.html">Home</a></li>
+	<li><a href="registration.html">Registration Form</a></li>
+</ul>
+	<table class="mod">
+		<form method="GET" action="details.html">
+		<tr>
+             <td><label for="fname">First Name:</label></td>
+	<td><input type="text" id="fname" name="fname"><br><br></td></tr>
+	<tr><td><label for="email">Email:</label></td>
+	<td><input type="email" id="email" name="email"><br><br></td></tr>
+	<tr><td><label for="phone">Phone Number:</label></td>
+	<td><input type="phone" id="fname" name="fname"><br><br></td></tr>
+	<tr><td><label>Gender:</label></td>
+	<td><input type="radio" id="male" name="Gender" value="Male">
+	<label for="male">Male</label>
+	<input type="radio" name="Gender" id="female" value="female">
+	<label for="female">Female</label>
+	<input type="radio" name="Gender" id="other"
+	value="other">
+	<label for="other">Other</label><br><br></td></tr>
+	<tr><td><label>Reason for RDIP</label></td>
+	<td><input type="radio" name="html" id="html" value="html">
+	<label for="html">HTML</label>
+	<input type="radio" name="css" id="css" value="css">
+	<label for="css">CSS</label>
+	<input type="radio" name="javascript" id="javascript"value="javascript">
+	<label for="javascript">JavaScript</label><br><br></td></tr>
+	<tr><td><label for="College">College</label></td>
+	<td><input type="text" name="College" id="College"><br><br></td></tr>
+	<tr><td><input type="checkbox" name="checkbox" id="check"></td>
+	<td><label for="check">I declare above details by me are true.</label><br><br></td></tr>
+	<tr><td><input type="submit" value="Submit"></td>
+	<td><input type="reset" value="Reset"></td></tr>
+</table>
+
+</form>
+</body>
+</html>	  
