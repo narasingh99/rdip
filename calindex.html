@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>
+	My Calculator
+</title>
+	 <link rel ="stylesheet" href="first.css">
+ <script src="all.js"></script> 
+</head>
+	<body>
+		<h1>CALCULATOR</h1><br><center>
+		<table>
+			<tr>
+				<th colspan="4"><input type="text" id="t1"></th>
+			</tr>
+			<tr>
+				<th><input type="button" value="7" onclick="func1('7')"></th>
+				<th><input type="button"  value="8" onclick="func1('8')"></th>
+				<th><input type="button"  value="9" onclick="func1('9')"></th>
+				<th><input type="button"  value="C" onclick="cleartxt()"></th>
+			</tr>
+			<tr>
+				<th><input type="button"  value="4" onclick="func1('4')"></th>
+				<th><input type="button"  value="5" onclick="func1('5')"></th>
+				<th><input type="button"  value="6" onclick="func1('6')"></th>
+				<th><input type="button" value="x" onclick="func1('*')"></th>
+			</tr>
+			<tr>
+				<th><input type="button"  value="1" onclick="func1('1')"></th>
+				<th><input type="button"  value="2" onclick="func1('2')"></th>
+				<th><input type="button"  value="3" onclick="func1('3')"></th>
+				<th><input type="button" value="abs" onclick="abs()"></th>
+			</tr>
+			<tr>
+				<th><input type="button"  value="." onclick="func1('.')"></th>
+				<th><input type="button" value="0" onclick="func1('0')"></th>
+				<th><input type="button" id="per" value="%" onclick="func1('%')"></th>
+				<th><input type="button"  value="/" onclick="func1('/')"></th>
+			</tr>
+			<tr>
+				<th><input type="button"  value="+" onclick="func1('+')"></th>
+				<th><input type="button"  value="-" onclick="func1('-')"></th>
+				<th><input type="button"  value="=" onclick="equal_function()"></th>
+				<th><input type="button"  value="sqrt" onclick="sqroot()"></th>
+			</tr>
+		</table></center>
+</body>
+</html> 

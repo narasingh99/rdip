@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Validation</title>
+<link rel='stylesheet' href='second.css' type='text/css'>
+<script src="all.js"></script>
+</head>
+<body onload="document.registration.username.focus();">
+<h1>Registration Form</h1><br>
+<form name='registration' onSubmit="return formValidation()">
+<ul>
+<li><label for="username">Name</label></li>
+<li><input type="text" name="username" size="30" id="username" required ></li>
+<li><label for="number">Number:</label></li>
+<li><input type="text" name="number" id="number" required></li>
+<li><label for="email">Email:</label></li>
+<li><input type="text" name="email" size="30" id="email"></li>
+<li><input type="submit" name="submit" value="Submit" ></li>
+</ul>
+</form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+li
+{
+	list-style: none;
+}body
+{
+	background-color: yellow;
+	font-size: 20px;
+
+}
+input
+{
+	background-color: pink;
+	font-style: bold;
+	height:22px;
+}
+h1 
+{
+
+    color:#666633;
+}
+
+textarea
+{
+	background-color: #c2c2a3;
+	font-style: bold;
+	height:100px;
+	width:250px;
+
+}
